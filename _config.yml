@@ -1,4 +1,14 @@
+#Site settings
+
+title: Alberto EA Uribe Website
+email: alberto.alvarez@mau.se
+twitter_username: aeau
+github_username: aeau
+
 name: Alberto Alvarez, PhD
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-minimal
+
+collections:
+  - indThesis

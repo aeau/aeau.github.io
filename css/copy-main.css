@@ -1,0 +1,134 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+
+.pic{
+    float: left;
+    width: 100%;
+}
+
+.wp{
+    width: 100%;
+    border-bottom: 1px solid #d5d5d5;
+    text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.wp-picture{
+    width: 16.66666667%;
+}
+
+.wp-text{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    width: 70.33333333%;
+    text-align:justify;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: #333;
+}
+
+
+.theses, .wrapper{
+    display: flex;
+  justify-content: space-around;
+}
+
+.thesis{
+    border-bottom: 1px solid #d5d5d5;
+    width: 100%;
+    text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20px;
+
+}
+
+.thesis-picture{
+    width: 16.66666667%;
+    vertical-align:top;
+    align-items: start
+}
+
+.thesis-text{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    width: 70.33333333%;
+    text-align:justify;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    color: #333;
+}
+
+.abstract{
+    text-align:justify;
+    font-size: 0.7em;
+    line-height: 0.9em;
+    color: #333;
+}
+
+.links{
+    border-bottom: 1px solid #d5d5d5;
+    width: 100%;
+    text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20px;
+  direction: rtl
+}
+
+.link-text{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    width: 4%;
+    text-align:justify;
+    font-size: 9pt;
+    line-height: 1.2em;
+    padding-right: 5px;
+    color: rgb(223, 89, 89);
+}
