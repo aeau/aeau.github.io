@@ -18,6 +18,14 @@ title: Supervised Theses
                 <!-- <div class="thesis-picture">
                     <img class="pic" src={{thesis.thesis_img}} align="middle"/>
                 </div> -->
+
+                <span>[
+                    {% for tag in page.tags %}
+                      {% capture tag_name %}{{ tag }}{% endcapture %}
+                      <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+                    {% endfor %}
+                  ]</span>
+
                 <div class="thesis-text">
                     <strong>{{thesis.author}}</strong>
 
@@ -38,7 +46,7 @@ title: Supervised Theses
                 </div>
             </div>
             {% endif %}
-	         {% endfor %}
+        {% endfor %}
         </ul>
 
 

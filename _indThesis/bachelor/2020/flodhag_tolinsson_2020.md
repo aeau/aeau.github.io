@@ -6,6 +6,7 @@ year: "2020"
 thesis_url: "http://muep.mau.se/bitstream/handle/2043/32141/Alexander%20Flodhag%20Simon%20Tolinsson.pdf?sequence=1&isAllowed=y"
 thesis_img: "/images/main-profile-photo.png"
 category: dancing
+tags: pcg
 
 ---
 

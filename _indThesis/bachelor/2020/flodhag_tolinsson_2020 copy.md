@@ -6,7 +6,7 @@ year: "2020"
 thesis_url: "http://muep.mau.se/bitstream/handle/2043/32141/Alexander%20Flodhag%20Simon%20Tolinsson.pdf?sequence=1&isAllowed=y"
 thesis_img: "/images/main-profile-photo.png"
 category: dancing
-
+tags: pcg narrative
 ---
 
 Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
