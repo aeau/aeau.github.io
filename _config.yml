@@ -5,7 +5,7 @@ email: alberto.alvarez@mau.se
 twitter_username: aeau
 github_username: aeau
 
-name: Alberto Alvarez, PhD
+name: Alberto Alvarez, PhD Student
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-minimal
