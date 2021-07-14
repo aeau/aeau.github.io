@@ -3,4 +3,70 @@ layout: default
 title: Publications
 ---
     <h1>{{ page.title }}</h1>
-    
+
+        {% for paper in site.papers %}
+            
+            <ul class="publications">
+
+                
+                    
+                <div class="publication">
+                    
+                    <!-- <div class="thesis-picture">
+                        <img class="pic" src={{thesis.thesis_img}} align="middle"/>
+                    </div> -->
+
+                    <div class="publication-text">
+                        
+                        
+<!--                         <div ><img class="publication-img" src="/images/main-profile-photo.png" align="middle"/>
+                        <img class="publication-img" src="/images/main-profile-photo.png" align="middle"/></div> -->
+                        <h2>{{paper.title}} </h2>
+                                                
+
+                        <div class="authors-text">
+                            {{paper.author}} &nbsp; <a class="publication-type-{{paper.type}}">{{paper.type}}</a> </div>
+                            
+                        
+<!--                         <div class="publication-pdf">
+                            <img src="/images/pdf-clipart.png" alt="Card Back">
+                            <img src="/images/pdf-clipart-hovered.png" class="img-top" alt="Card Front">
+                        </div> -->
+                        
+                        <!-- <br> -->
+                        
+                        <!-- <img class="publication-pdf" src="/images/pdf-clipart.png" align="middle"/> -->
+
+                        <span class="post-tags">
+                            [&nbsp;
+                            {% for tag in paper.tags %}
+                            {% capture tag_name %}{{ tag }}{% endcapture %}
+                            <a class="no-underline" href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>    
+                            {% endfor %}
+                            ]
+
+                            &nbsp;&nbsp;{{paper.booktittle}}, {{paper.year}}
+                        </span>
+<!--                         <a class="link-text" href={{paper.thesis_url}}  target="_blank">
+                            thesis</a> -->
+                            <a href="{{paper.pdf}}" target="_blank" class="publication-pdf">
+                                <img src="/images/pdf-clipart.png" alt="Card Back">
+                                <img src="/images/pdf-clipart-hovered.png" class="img-top" alt="Card Front">
+                            </a>
+
+                            <br>
+
+                            <details>
+                                <summary class="details-bibtex"><strong>Cite this work!</strong></summary>
+                                <div class="bibtex-text">{{paper.content}}</div>
+
+                            </details>
+
+                            
+                
+                    </div>
+                    
+                </div>
+                
+            </ul>   
+        {% endfor %}

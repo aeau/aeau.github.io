@@ -143,4 +143,211 @@ ul.posts li {
     color: rgb(223, 89, 89);
 }
 
+.publications, .wrapper{
+    display: flex;
+  justify-content: space-around;
+}
+
+.publication{
+    border-bottom: 1px solid #d5d5d5;
+    width: 100%;
+    text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  padding-bottom: 5px;
+  padding-right: 10px;
+
+}
+
+.publication-img{
+    vertical-align:top;
+    float: right;
+    width: 10%;
+}
+
+/* .publication-pdf{
+    vertical-align:center;
+    width: 3%;
+}
+
+.publication-pdf:hover {
+    background: url("/images/pdf-clipart-hovered.png") no-repeat;
+} */
+
+.publication-pdf {
+    position: relative;
+    width: 50px;
+    vertical-align:bottom;
+    display: flex;
+    align-items: flex-end;
+    float: right;
+    /* border: 2px solid black; */
+}
+.publication-pdf .img-top {
+    position: absolute;
+    vertical-align:bottom;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.publication-pdf:hover .img-top {
+    opacity: 1;
+}
+
+.publication-pdf > img {
+    vertical-align:bottom;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* .publication-pdf {
+    position: relative;
+    float: right;
+}
+.publication-pdf .img-top {
+    position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      object-fit: contain;
+      opacity: 0;
+      transition: opacity .2s;
+
+}
+.publication-pdf:hover .img-top {
+    opacity: 1;
+}
+
+.publication-pdf > img {
+    vertical-align:top;
+    width: 10%;
+
+} */
+
+.publication-text{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    max-width: 100%;
+    width:70%;
+    text-align:left;
+    font-size: 1.0em;
+    line-height: 1.2em;
+    color: #333;
+    /* border: 2px solid black; */
+}
+
+.publication-text .authors-text{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    max-width: 90%;
+    text-align:left;
+    font-size: 1.0em;
+    line-height: 1.2em;
+    color: #333;
+    /* border: 2px solid black; */
+}
+
+.publication-text > h2{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    width: 80%;
+    text-align:left;
+    font-size: 1.4em;
+    line-height: 1.2em;
+    color: #333;
+}
+
+.publication-type-book-chapter{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    width: 100%;
+    text-align:center;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    color: #333;
+    border-radius: 10px;
+    background-color: rgba(185, 241, 94, 0.514);
+    padding: 1px 6px;
+    margin: 0;
+    width: 10%
+}
+
+.publication-type-conference{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    width: 100%;
+    text-align:center;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    color: #333;
+    border-radius: 10px;
+    background-color: rgba(94, 194, 241, 0.514);
+    padding: 1px 6px;
+    margin: 0;
+    width: 10%
+}
+
+.publication-type-journal{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    width: 100%;
+    text-align:center;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    color: #333;
+    border-radius: 10px;
+    background-color: rgba(199, 94, 241, 0.514);
+    padding: 1px 6px;
+    margin: 0;
+    width: 10%
+}
+
+.publication-type-arxiv{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    width: 100%;
+    text-align:center;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    color: #333;
+    border-radius: 10px;
+    background-color: rgba(241, 94, 94, 0.514);
+    padding: 1px 6px;
+    margin: 0;
+    width: 10%
+}
+
+details > summary {
+    list-style: none;
+  }
+  
+.details-bibtex{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    width: 100%;
+    text-align:center;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    color: #333;
+    /* border-radius: 10px; */
+    /* background-color: rgba(185, 241, 94, 0.514); */
+    border: 2px solid black;
+    padding: 4px 6px;
+    margin: 0;
+    margin-top: 5px;
+    width: 10%;
+}
+
+.details-bibtex:hover{
+    background-color: rgba(185, 241, 94, 0.514);
+    border: 0px  rgba(185, 241, 94, 0.514);
+    cursor: pointer;
+/*     opacity: 0;
+    transition: opacity .2s; */
+}
+.bibtex-text{
+    border-radius: 10px;
+    background-color: rgba(204, 228, 235, 0.178);
+    padding: 2px 6px;
+    margin: 0;
+    width: 70%;
+    word-wrap: break-word;
+}
+
 

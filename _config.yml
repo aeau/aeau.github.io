@@ -9,8 +9,10 @@ name: Alberto Alvarez, PhD Student
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-minimal
+highlighter: rouge
 
 tags: 
 
 collections:
   - indThesis
+  - papers
