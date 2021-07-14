@@ -73,6 +73,29 @@ ul.posts li {
     color: #333;
 }
 
+.page-404{
+    position: absolute;
+    text-align: center;
+    color: white;
+
+}
+
+.page-404 > img{
+    width: 100%
+}
+
+.page-404 .error-text {
+    position: absolute;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    width: 100%;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 
 .theses, .wrapper{
     display: flex;

@@ -25,7 +25,7 @@ title: Publications
                                                 
 
                         <div class="authors-text">
-                            {{paper.author}} &nbsp; <a class="publication-type-{{paper.type}}">{{paper.type}}</a> </div>
+                            {{paper.author}}  </div>
                             
                         
 <!--                         <div class="publication-pdf">
@@ -37,6 +37,11 @@ title: Publications
                         
                         <!-- <img class="publication-pdf" src="/images/pdf-clipart.png" align="middle"/> -->
 
+
+                        {{paper.booktittle}}, {{paper.year}} <span class="publication-type-{{paper.type}}">{{paper.type}}</span>
+
+                        <br>
+
                         <span class="post-tags">
                             [&nbsp;
                             {% for tag in paper.tags %}
@@ -45,7 +50,7 @@ title: Publications
                             {% endfor %}
                             ]
 
-                            &nbsp;&nbsp;{{paper.booktittle}}, {{paper.year}}
+                            
                         </span>
 <!--                         <a class="link-text" href={{paper.thesis_url}}  target="_blank">
                             thesis</a> -->
