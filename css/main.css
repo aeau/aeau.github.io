@@ -337,6 +337,20 @@ ul.posts li {
     width: 10%
 }
 
+.publication-type-thesis{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    width: 100%;
+    text-align:center;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    color: #333;
+    border-radius: 10px;
+    background-color: rgba(246, 174, 153, 0.514);
+    padding: 1px 6px;
+    margin: 0;
+    width: 10%
+}
+
 details > summary {
     list-style: none;
   }
