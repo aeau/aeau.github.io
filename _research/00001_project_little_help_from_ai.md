@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "Under-construction"
 author: "Alberto Alvarez"
 date: 2021-07-14
