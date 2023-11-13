@@ -7,7 +7,7 @@ github_username: aeau
 
 name: Alberto Alvarez, Assistant Professor
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+# permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-minimal
 highlighter: rouge
 
