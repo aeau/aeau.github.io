@@ -6,8 +6,10 @@ title: Research Project
 
     <ul class="posts">
 
-      {% for post in site.research %}
-      <p> Will this work?</p>
-        <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+      {% for post in site.posts %}
+        <p> Will this work?</p>
+        {% if post.categories contains 'research-project' %}
+          <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+        {% endif %}
       {% endfor %}
     </ul>

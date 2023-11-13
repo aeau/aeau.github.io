@@ -4,6 +4,7 @@ title: "Under-construction"
 author: "Alberto Alvarez"
 date: 2023-07-14
 tags: pcg ai edd malmö-university
+categories: blog
 ---
 
 The website is under construction!
